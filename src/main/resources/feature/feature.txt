@@ -1,1 +1,1 @@
-Adding a class "GoldVisa" - new commit for reset
+Adding a class "PremiumMir"
