@@ -1,0 +1,43 @@
+2018-06-24 19:20:35,323 INFO  com.epam.paymentsystems.PaymentSystems             - Application "Payment Systems" is start
+2018-06-24 19:20:35,325 DEBUG com.epam.paymentsystems.PaymentSystems             - Application "Payment Systems" is run
+2018-06-24 19:20:35,325 INFO  com.epam.paymentsystems.PaymentSystems             - Creation of all required cards
+2018-06-24 19:20:35,439 DEBUG com.epam.paymentsystems.cards.FactoryCards         - Create "VISA_ELECTRON" card
+2018-06-24 19:20:35,449 DEBUG com.epam.paymentsystems.cards.Card                 - Initializing the card number
+2018-06-24 19:20:35,450 DEBUG com.epam.paymentsystems.cards.Card                 - Formation a bank identifier
+2018-06-24 19:20:35,450 DEBUG com.epam.paymentsystems.cards.Card                 - Getting the digit of payment system
+2018-06-24 19:20:35,450 DEBUG com.epam.paymentsystems.cards.Card                 - Getting the number of type card
+2018-06-24 19:20:35,450 DEBUG com.epam.paymentsystems.cards.Card                 - Formation a unique number
+2018-06-24 19:20:35,450 DEBUG com.epam.paymentsystems.cards.Card                 - Getting of identification number
+2018-06-24 19:20:35,450 DEBUG com.epam.paymentsystems.cards.Card                 - Get identification number from GENERATOR
+2018-06-24 19:20:35,450 TRACE com.epam.paymentsystems.generators.RandomGenerator - Creating random
+2018-06-24 19:20:35,451 TRACE com.epam.paymentsystems.generators.RandomGenerator - 9 random digit are generated - [5, 7, 8, 0, 2, 7, 7, 0, 1]
+2018-06-24 19:20:35,451 DEBUG com.epam.paymentsystems.cards.Card                 - Saving an identification number to the card number
+2018-06-24 19:20:35,451 DEBUG com.epam.paymentsystems.cards.Card                 - Getting the check number
+2018-06-24 19:20:35,451 DEBUG com.epam.paymentsystems.cards.Card                 - Get and saving check digit
+2018-06-24 19:20:35,451 TRACE com.epam.paymentsystems.algorithms.LuhnAlgorithm   - Array source number is - [4, 4, 3, 9, 8, 4, 5, 7, 8, 0, 2, 7, 7, 0, 1, 0]
+2018-06-24 19:20:35,451 TRACE com.epam.paymentsystems.algorithms.LuhnAlgorithm   - Array change number is forming - [4, 8, 3, 9, 8, 8, 5, 5, 8, 0, 2, 5, 7, 0, 1, 0]
+2018-06-24 19:20:35,454 TRACE com.epam.paymentsystems.algorithms.LuhnAlgorithm   - The sum change number - 73
+2018-06-24 19:20:35,454 TRACE com.epam.paymentsystems.algorithms.LuhnAlgorithm   - The check digit - 7
+2018-06-24 19:20:35,454 DEBUG com.epam.paymentsystems.cards.FactoryCards         - Create "VISA_CLASSIC" card
+2018-06-24 19:20:35,455 DEBUG com.epam.paymentsystems.cards.Card                 - Initializing the card number
+2018-06-24 19:20:35,455 DEBUG com.epam.paymentsystems.cards.Card                 - Formation a bank identifier
+2018-06-24 19:20:35,455 DEBUG com.epam.paymentsystems.cards.Card                 - Getting the digit of payment system
+2018-06-24 19:20:35,455 DEBUG com.epam.paymentsystems.cards.Card                 - Getting the number of type card
+2018-06-24 19:20:35,455 DEBUG com.epam.paymentsystems.cards.Card                 - Formation a unique number
+2018-06-24 19:20:35,455 DEBUG com.epam.paymentsystems.cards.Card                 - Getting of identification number
+2018-06-24 19:20:35,455 DEBUG com.epam.paymentsystems.cards.Card                 - Get identification number from GENERATOR
+2018-06-24 19:20:35,455 TRACE com.epam.paymentsystems.generators.RandomGenerator - Creating random
+2018-06-24 19:20:35,455 TRACE com.epam.paymentsystems.generators.RandomGenerator - 9 random digit are generated - [8, 6, 1, 2, 1, 1, 9, 6, 0]
+2018-06-24 19:20:35,455 DEBUG com.epam.paymentsystems.cards.Card                 - Saving an identification number to the card number
+2018-06-24 19:20:35,455 DEBUG com.epam.paymentsystems.cards.Card                 - Getting the check number
+2018-06-24 19:20:35,455 DEBUG com.epam.paymentsystems.cards.Card                 - Get and saving check digit
+2018-06-24 19:20:35,455 TRACE com.epam.paymentsystems.algorithms.LuhnAlgorithm   - Array source number is - [4, 4, 3, 9, 7, 4, 8, 6, 1, 2, 1, 1, 9, 6, 0, 0]
+2018-06-24 19:20:35,456 TRACE com.epam.paymentsystems.algorithms.LuhnAlgorithm   - Array change number is forming - [4, 8, 3, 9, 7, 8, 8, 3, 1, 4, 1, 2, 9, 3, 0, 0]
+2018-06-24 19:20:35,456 TRACE com.epam.paymentsystems.algorithms.LuhnAlgorithm   - The sum change number - 70
+2018-06-24 19:20:35,456 TRACE com.epam.paymentsystems.algorithms.LuhnAlgorithm   - The check digit - 0
+2018-06-24 19:20:35,456 DEBUG com.epam.paymentsystems.cards.FactoryCards         - Create "VISA_GOLD" card
+2018-06-24 19:20:35,456 DEBUG com.epam.paymentsystems.cards.Card                 - Initializing the card number
+2018-06-24 19:20:35,456 DEBUG com.epam.paymentsystems.cards.Card                 - Formation a bank identifier
+2018-06-24 19:20:35,456 DEBUG com.epam.paymentsystems.cards.Card                 - Getting the digit of payment system
+2018-06-24 19:20:35,456 DEBUG com.epam.paymentsystems.cards.Card                 - Getting the number of type card
+2018-06-24 19:20:35,457 DEBUG com.epam.paymentsystems.cards.Card                 - Formation a unique number
