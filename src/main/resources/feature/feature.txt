@@ -1,1 +1,1 @@
-Adding an abstract class "Card"
+Adding interface "Mir"
