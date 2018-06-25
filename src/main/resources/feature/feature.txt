@@ -1,1 +1,1 @@
-Adding interface "Mir"
+Adding a class "ClassicMir"
