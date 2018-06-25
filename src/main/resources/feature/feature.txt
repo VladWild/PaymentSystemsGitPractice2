@@ -1,1 +1,1 @@
-Adding a class "ClassicVisa"
+Adding a class "GoldVisa" - new commit for reset
