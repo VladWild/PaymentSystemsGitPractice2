@@ -1,1 +1,1 @@
-Adding a class "DebitMir"
+Adding a class "PremiumMir"
