@@ -1,1 +1,1 @@
-Adding a class "MaestroMaster"
+Adding a class "ElectronicMaster"
