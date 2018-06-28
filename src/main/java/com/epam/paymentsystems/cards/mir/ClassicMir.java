@@ -1,4 +1,4 @@
-package com.epam.paymentsystems.mir;
+package com.epam.paymentsystems.cards.mir;
 
 import com.epam.paymentsystems.cards.Card;
 
