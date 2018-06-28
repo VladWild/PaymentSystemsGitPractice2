@@ -1,9 +1,9 @@
-package com.epam.paymentsystems.master;
+package com.epam.paymentsystems.cards.master;
 
 import com.epam.paymentsystems.cards.Card;
 
-public class ElectronicMaster extends Card implements MasterCard {
-    private final static int[] TYPE = {2, 2, 1, 5, 6};
+public class Master extends Card implements MasterCard{
+    private final static int[] TYPE = {2, 5, 6, 7, 5};
 
     @Override
     protected int getSystemNumber() {

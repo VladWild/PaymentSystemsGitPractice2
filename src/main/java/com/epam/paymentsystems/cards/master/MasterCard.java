@@ -1,4 +1,4 @@
-package com.epam.paymentsystems.master;
+package com.epam.paymentsystems.cards.master;
 
 interface MasterCard {
     int SYSTEM = 5;
